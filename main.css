@@ -1,0 +1,1083 @@
+body {
+  background-color: #f9f9f9;
+}
+
+/*font-style*/
+.lfont {
+  font-size: 23px !important;
+  font-weight: bold !important;
+  font-family: "Pacifico", cursive;
+}
+
+.mfont {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  font-family: "Pacifico", cursive;
+}
+
+.font {
+  font-family: "Allura", cursive;
+  font-weight: bold;
+}
+
+/* animation*/
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(40px);
+    -ms-transform: translateX(40px);
+    transform: translateX(40px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+  70% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.ladi-transition {
+  transition: all 150ms linear 0s;
+}
+
+.ladi-group {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.ladi-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.ladi-animation {
+  animation-name: bounceIn;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+.ladi-section {
+  margin: 0 auto;
+  position: relative;
+}
+
+.ladi-element {
+  position: absolute;
+}
+
+.ladi-paragraph {
+  width: 100%;
+  display: inline-block;
+  word-break: break-word;
+}
+
+.ladi-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.ladi-headline {
+  width: 100%;
+  display: inline-block;
+  word-break: break-word;
+  background-size: cover;
+  background-position: center center;
+}
+
+.container-section1 {
+  height: 450px;
+}
+.container-section1-background {
+  background-image: url(./img/background/muslims-hero-bg-20230616081931-wmmk3.jpg);
+  background-size: cover;
+  background-position: 50% 0%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.container-section1-head {
+  width: 1200px;
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+}
+.container-section1-head_main {
+  width: 1200px;
+}
+.container-section1-head_main h1 {
+  font-size: 75px;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.container-section1-head_linegr {
+  width: 500px;
+  height: 112px;
+  top: 130px;
+  left: 330px;
+}
+.container-section1-head_linegr-element {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.container-section1-head_linegr-element-paragraph h3 {
+  font-weight: 100;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Pacifico", cursive;
+}
+.container-section2 {
+  height: 600px;
+}
+.container-section2-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.container-section2-element {
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+}
+.container-section2-element_frame1-group_box div {
+  border-radius: 0px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(0, 0, 0) 0px 5px 15px -9px;
+}
+.container-section2-element_frame1-group_img-item-background {
+  background-image: url(./img/img/DLEG4118.JPEG);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  top: 0px;
+  left: 0px;
+}
+.container-section2-element_img-box-background {
+  background-image: url(./img/background/shape-4-20230616083124-sfw8e.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.container-section2-element_frame2 {
+  width: 420px;
+  height: 833px;
+}
+.container-section2-element_frame2-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  animation-name: fadeInUp;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+.container-section2-element_frame2-box-background {
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  transition: inherit;
+}
+.container-section2-element_frame2-box-form {
+  width: 386px;
+  height: 580px;
+  top: 24px;
+  left: 18px;
+}
+.container-section2-element_frame2-box-form div {
+  box-shadow: rgb(0, 0, 0) 0px 5px 16px -9px;
+  border-radius: 0px;
+  background-color: rgb(255, 255, 255);
+}
+.container-section2-element_frame2-box-img2 {
+  top: 44px;
+  left: 40px;
+  width: 345px;
+  height: 542px;
+}
+.container-section2-element_frame2-box-img2-item-background {
+  background-image: url(./img/img/Grizz\ _\ Grizzly\ Bear\ _\ We\ Bare\ Bears.jpg);
+  width: 345px;
+  height: 542px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.container-section2-element_frame2-box-headline {
+  width: 398px;
+  top: 615px;
+  left: 12px;
+}
+.container-section2-element_frame2-box-headline_name {
+  animation-name: bounceIn;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  font-size: 50px;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Allura", cursive;
+}
+.container-section2-element_frame2-box-paragraph {
+  width: 366px;
+  top: 694px;
+  left: 28px;
+}
+.container-section2-element_frame2-box-paragraph h3 {
+  font-weight: 100;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 16px;
+  font-family: "Pacifico", cursive;
+}
+.container-section2-element_frame3 {
+  width: 420px;
+  height: 833px;
+}
+.container-section2-element_frame3-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  animation-name: fadeInUp;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+.container-section2-element_frame3-box-background {
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  transition: inherit;
+}
+.container-section2-element_frame3-box-form {
+  width: 386px;
+  height: 580px;
+  top: 24px;
+  left: 18px;
+}
+.container-section2-element_frame3-box-form div {
+  box-shadow: rgb(0, 0, 0) 0px 5px 16px -9px;
+  border-radius: 0px;
+  background-color: rgb(255, 255, 255);
+}
+.container-section2-element_frame3-box-img3 {
+  top: 44px;
+  left: 40px;
+  width: 345px;
+  height: 542px;
+}
+.container-section2-element_frame3-box-img3-item-background {
+  background-image: url(./img/img/Polar\ Bear\ _\ Ice\ Bear\ _\ We\ Bare\ Bears.jpg);
+  width: 345px;
+  height: 542px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.container-section2-element_frame3-box-headline {
+  width: 398px;
+  top: 615px;
+  left: 12px;
+}
+.container-section2-element_frame3-box-headline_name {
+  animation-name: bounceIn;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  font-size: 50px;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Allura", cursive;
+}
+.container-section2-element_frame3-box-paragraph {
+  width: 366px;
+  top: 694px;
+  left: 28px;
+}
+.container-section2-element_frame3-box-paragraph h3 {
+  font-weight: 100;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 16px;
+  font-family: "Pacifico", cursive;
+}
+.container-section3-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.container-section3-box {
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+}
+.container-section3-box-img1_page {
+  box-shadow: rgb(0, 0, 0) 0px 5px 15px -9px;
+}
+.container-section3-box-img1_page-background {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.container-section3-box-img2_page-background {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.container-section3-box-line-page {
+  width: 100%;
+  padding: 8px 0px;
+}
+.container-section3-box-line-page_hide {
+  border-top: 3px solid rgb(0, 0, 0);
+  border-right: 3px solid rgb(0, 0, 0);
+  border-bottom: 3px solid rgb(0, 0, 0);
+  border-left: 0px !important;
+  border-bottom: 0 !important;
+  border-right: 0 !important;
+  width: 100%;
+  height: 100%;
+}
+.container-section3-box-paragraph1 {
+  width: 330px;
+}
+.container-section3-box-paragraph1_name {
+  font-weight: 100;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  font-family: "Pacifico", cursive;
+}
+.container-section3-box-img3_flow-background {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.container-section3-box-group1 {
+  height: 102px;
+}
+.container-section3-box-group1-content-paragraph1 {
+  top: 0px;
+  left: 0px;
+}
+.container-section3-box-group1-content-paragraph1 div {
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.container-section3-box-group1-content-paragraph1 div span {
+  font-weight: bold;
+  font-family: "Barlow", sans-serif;
+}
+.container-section3-box-group1-content-paragraph2 {
+  top: 51px;
+  left: 0px;
+}
+.container-section3-box-group1-content-paragraph2 div {
+  font-family: "Dosis", sans-serif;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.container-section3-box-group2 {
+  height: 102px;
+}
+.container-section3-box-group2-content-paragraph1 {
+  top: 0px;
+  left: 0px;
+}
+.container-section3-box-group2-content-paragraph1 div {
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.container-section3-box-group2-content-paragraph1 div span {
+  font-weight: bold;
+  font-family: "Barlow", sans-serif;
+}
+.container-section3-box-group2-content-paragraph2 {
+  top: 51px;
+  left: 0px;
+}
+.container-section3-box-group2-content-paragraph2 div {
+  font-family: "Dosis", sans-serif;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.container-section3-box-headline h1 {
+  animation-name: bounceIn;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  font-weight: bold;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+}
+.container-section3-box-paragraph2 div {
+  font-size: 23px;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: 600;
+  font-family: "Barlow", sans-serif;
+}
+.container-section3-box-paragraph3 div {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+}
+.container-section3-box-paragraph4 div {
+  font-style: italic;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+}
+.container-section3-box-paragraph5 div {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+}
+.container-section3-box-paragraph6 div {
+  font-weight: bold;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+}
+.container-section3-box-paragraph7 div {
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+}
+.container-section3-box-paragraph8 div {
+  font-weight: bold;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+}
+.container-section3-box-paragraph9 div {
+  font-weight: bold;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+}
+.container-section3-box-paragraph10 {
+  font-family: "Dancing Script", cursive;
+  font-size: 18.5px;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.container-section3-box-paragraph11 {
+  font-family: "Barlow", sans-serif;
+  font-size: 17.5px;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.container-section3-box-img4_bottom-background {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.container-section4 {
+  top: 30px;
+}
+.container-section4-background {
+  background-origin: content-box;
+  background-position: 50% 50%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.container-section4-overlay {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+.container-section4-item {
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+}
+.container-section5-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.container-section5-item {
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+}
+.container-section5-item-group1_head-box {
+  top: 0px;
+}
+.container-section5-item-group1_head-box div {
+  box-shadow: rgb(0, 0, 0) 0px 0px 32px -15px;
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+}
+.container-section5-item-group1_head-12 {
+  left: 0px;
+}
+.container-section5-item-group1_head-12-paragraph-1 div {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+}
+.container-section5-item-image1-background {
+  animation-name: fadeInUp;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+.container-section5-item-image1-background div {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  top: 0px;
+  left: 0px;
+}
+.container-section5-item-image2-background {
+  animation-name: fadeInLeft;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+.container-section5-item-image2-background div {
+  left: 0px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.container-section5-item-image3-background {
+  animation-name: fadeInRight;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+.container-section5-item-image3-background div {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.container-section5-item-image4-background {
+  animation-name: fadeInUp;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+.container-section5-item-image4-background div {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  top: 0px;
+  left: 0px;
+}
+.container-section5-item-image5-background {
+  animation-name: fadeInUp;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+.container-section5-item-image5-background div {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  top: 0px;
+  left: 0px;
+}
+.container-section5-item-image6-background {
+  animation-name: fadeInUp;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+.container-section5-item-image6-background div {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.container-section5-item-image7-background {
+  animation-name: fadeInUp;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+.container-section5-item-image7-background div {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.container-section5-item-image8-background {
+  animation-name: fadeInUp;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+.container-section5-item-image8-background div {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  top: 0px;
+  left: 0px;
+}
+.container-section6-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.container-section6-item {
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+}
+.container-section6-item-image1-background div {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.container-section6-item-image2-background div {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.container-section6-item-image3-background div {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.container-section6-item-image4-background div {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.container-section6-item-image5-background div {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.container-section6-item-image6-background div {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.container-section6-item-image7-background div {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.container-section6-item-group1-paragraph_head {
+  width: 268px;
+}
+.container-section6-item-group1-paragraph_head div {
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+.container-section6-item-group1-paragraph_head div h1 {
+  font-weight: 600;
+  font-family: "Barlow", sans-serif;
+}
+.container-section6-item-group1-paragraph_sub {
+  left: 0px;
+}
+.container-section6-item-group1-paragraph_sub div {
+  line-height: 1.2;
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+.container-section6-item-group1-paragraph_sub div h3 {
+  font-style: italic;
+  font-family: "Barlow", sans-serif;
+}
+.container-section6-item-group1-paragraph_sub div h2 {
+  font-weight: bold;
+  font-family: "Barlow", sans-serif;
+}
+.container-section6-item-group2-paragraph_head {
+  width: 268px;
+}
+.container-section6-item-group2-paragraph_head div {
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+.container-section6-item-group2-paragraph_head div h1 {
+  font-weight: 600;
+  font-family: "Barlow", sans-serif;
+}
+.container-section6-item-group2-paragraph_sub {
+  left: 0px;
+}
+.container-section6-item-group2-paragraph_sub div {
+  line-height: 1.2;
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+.container-section6-item-group2-paragraph_sub div h3 {
+  font-style: italic;
+  font-family: "Barlow", sans-serif;
+}
+.container-section6-item-group2-paragraph_sub div h2 {
+  font-weight: bold;
+  font-family: "Barlow", sans-serif;
+}
+.container-section6-item-group3-paragraph_head {
+  width: 268px;
+}
+.container-section6-item-group3-paragraph_head div {
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+.container-section6-item-group3-paragraph_head div h1 {
+  font-weight: 600;
+  font-family: "Barlow", sans-serif;
+}
+.container-section6-item-group3-paragraph_sub {
+  left: 0px;
+}
+.container-section6-item-group3-paragraph_sub div {
+  line-height: 1.2;
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+.container-section6-item-group3-paragraph_sub div h3 {
+  font-style: italic;
+  font-family: "Barlow", sans-serif;
+}
+.container-section6-item-group3-paragraph_sub div h2 {
+  font-weight: bold;
+  font-family: "Barlow", sans-serif;
+}
+.container-section6-item-group4_pr-paragraph1 div {
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+}
+.container-section6-item-group4_pr-paragraph2 div {
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: bold;
+  font-family: "Barlow", sans-serif;
+}
+.container-section7-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.container-section7-item {
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+}
+.container-section7-item-group-paragraph_head div {
+  font-family: "Barlow", sans-serif;
+  line-height: 1.8;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.container-section7-item-image {
+  padding-bottom: 50px;
+}
+.container-section7-item-image-background div {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-attachment: scroll;
+  background-origin: content-box;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/*# sourceMappingURL=main.css.map */

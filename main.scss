@@ -1,0 +1,1314 @@
+body {
+    background-color: #f9f9f9;
+}
+
+/*font-style*/
+
+.lfont {
+    font-size: 23px !important;
+    font-weight: bold !important;
+    font-family: 'Pacifico', cursive;
+}
+
+.mfont {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    font-family: 'Pacifico', cursive;
+}
+
+.font {
+    font-family: 'Allura', cursive;
+    font-weight: bold;
+}
+
+/* animation*/
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+    
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-20px);
+        -ms-transform: translateX(-20px);
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(40px);
+        -ms-transform: translateX(40px);
+        transform: translateX(40px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.3);
+        -ms-transform: scale(0.3);
+        transform: scale(0.3);
+    }
+    50% {
+        opacity: 1;
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+    70% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.ladi-transition {
+    transition: all 150ms linear 0s;
+
+}
+
+.ladi-group {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.ladi-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.ladi-animation{
+    animation-name: bounceIn;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.ladi-section {
+    margin: 0 auto;
+    position: relative;
+}
+
+.ladi-element {
+    position: absolute;
+}
+
+.ladi-paragraph {
+    width: 100%;
+    display: inline-block;
+    word-break: break-word;
+}
+
+.ladi-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.ladi-headline {
+    width: 100%;
+    display: inline-block;
+    word-break: break-word;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container {
+    &-background {
+    }
+    &-section1 {
+            height: 450px;
+            &-background{
+                background-image: url(./img/background/muslims-hero-bg-20230616081931-wmmk3.jpg);
+                background-size: cover;
+                background-position: 50% 0%;
+                background-repeat: repeat;
+                background-attachment: fixed;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                pointer-events: none;
+                overflow: hidden;
+            }
+
+            &-head {
+                width: 1200px;
+                position: relative;
+                margin: 0 auto;
+                height: 100%;
+                &_main {
+                    width: 1200px;
+                    h1 {
+                        font-size: 75px;;
+                        line-height: 1.6;
+                        color: rgb(0, 0, 0);
+                        text-align: center;
+                    }
+                }
+
+                &_linegr {
+                    width: 500px;
+                    height: 112px;
+                    top: 130px;
+                    left: 330px;
+                    &-element{
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        &-paragraph{
+                            h3 {
+                                font-weight: 100;
+                                line-height: 1.6;
+                                color: rgb(0, 0, 0);
+                                text-align: center;
+                                font-family: 'Pacifico', cursive;
+                            }
+                        }
+                    }
+                }
+            }
+    }
+
+    &-section2 {
+        height: 600px;
+        &-background {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            overflow: hidden;
+        }
+
+        &-element{
+            position: relative;
+            margin: 0 auto;
+            height: 100%;
+            &_frame1 {
+                &-group{
+                    &_box{
+                        & div {
+                            border-radius: 0px;
+                            background-color: rgb(255, 255, 255);
+                            box-shadow: rgb(0, 0, 0) 0px 5px 15px -9px;
+                        }
+                    }
+                    &_img {
+                        &-item{
+                            &-background {
+                                background-image: url(./img/img/DLEG4118.JPEG);
+                                background-repeat: no-repeat;
+                                background-position: left top;
+                                background-size: cover;
+                                background-attachment: scroll;
+                                background-origin: content-box;
+                                position: absolute;
+                                margin: 0 auto;
+                                width: 100%;
+                                height: 100%;
+                                pointer-events: none;
+                                top: 0px;
+                                left: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &_img {
+                &-box {
+                    &-background {
+                        background-image: url(./img/background/shape-4-20230616083124-sfw8e.png);
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        background-size: cover;
+                        background-attachment: scroll;
+                        background-origin: content-box;
+                        position: absolute;
+                        margin: 0 auto;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                    }
+                }
+            }
+
+        &_frame2 {
+            width: 420px;
+            height: 833px;
+            &-box {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                animation-name: fadeInUp;
+                animation-delay: 0s;
+                animation-duration: 1s;
+                animation-iteration-count: 1;
+                &-background {
+                    height: 100%;
+                    width: 100%;
+                    pointer-events: none;
+                    transition: inherit;
+                }
+
+                &-form {
+                    width: 386px;
+                    height: 580px;
+                    top: 24px;
+                    left: 18px;
+                    & div {
+                        box-shadow: rgb(0, 0, 0) 0px 5px 16px -9px;
+                        border-radius: 0px;
+                        background-color: rgb(255, 255, 255);   
+                    }
+                }
+
+                &-img2 {
+                    top: 44px;
+                    left: 40px;
+                    width: 345px;
+                    height: 542px;
+
+                    &-item{
+
+                        &-background {
+                            background-image: url(./img/img/Grizz\ _\ Grizzly\ Bear\ _\ We\ Bare\ Bears.jpg);
+                            width: 345px;
+                            height: 542px;
+                            background-repeat: no-repeat;
+                            background-position: left top;
+                            background-size: cover;
+                            background-attachment: scroll;
+                            background-origin: content-box;
+                            position: absolute;
+                            margin: 0 auto;
+                            width: 100%;
+                            height: 100%;
+                            pointer-events: none;
+                        }
+                    }
+
+                }
+
+                &-headline {
+                    width: 398px;
+                    top: 615px;
+                    left: 12px;
+                    &_name {
+                        animation-name: bounceIn;
+                        animation-delay: 1s;
+                        animation-duration: 1s;
+                        animation-iteration-count: 1;    
+                        font-size: 50px;
+                        line-height: 1.6;
+                        color: rgb(0, 0, 0);
+                        text-align: center;
+                        font-family: "Allura", cursive;
+                    }
+
+                }
+
+                &-paragraph {
+                    width: 366px;
+                    top: 694px;
+                    left: 28px;
+                    & h3 {
+                        font-weight: 100;
+                        line-height: 1.6;
+                        color: rgb(0, 0, 0);
+                        text-align: center;
+                        font-size: 16px;
+                        font-family: "Pacifico", cursive;
+                    }
+                }
+            }
+        }
+
+        &_frame3 {
+            width: 420px;
+            height: 833px;
+            &-box {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                animation-name: fadeInUp;
+                animation-delay: 0s;
+                animation-duration: 1s;
+                animation-iteration-count: 1;
+                &-background {
+                    height: 100%;
+                    width: 100%;
+                    pointer-events: none;
+                    transition: inherit;
+                }
+
+                &-form {
+                    width: 386px;
+                    height: 580px;
+                    top: 24px;
+                    left: 18px;
+                    & div {
+                        box-shadow: rgb(0, 0, 0) 0px 5px 16px -9px;
+                        border-radius: 0px;
+                        background-color: rgb(255, 255, 255);   
+                    }
+                }
+
+                &-img3 {
+                    top: 44px;
+                    left: 40px;
+                    width: 345px;
+                    height: 542px;
+
+                    &-item{
+
+                        &-background {
+                            background-image: url(./img/img/Polar\ Bear\ _\ Ice\ Bear\ _\ We\ Bare\ Bears.jpg);
+                            width: 345px;
+                            height: 542px;
+                            background-repeat: no-repeat;
+                            background-position: left top;
+                            background-size: cover;
+                            background-attachment: scroll;
+                            background-origin: content-box;
+                            position: absolute;
+                            margin: 0 auto;
+                            width: 100%;
+                            height: 100%;
+                            pointer-events: none;
+                        }
+                    }
+
+                }
+
+                &-headline {
+                    width: 398px;
+                    top: 615px;
+                    left: 12px;
+                    &_name {
+                        animation-name: bounceIn;
+                        animation-delay: 1s;
+                        animation-duration: 1s;
+                        animation-iteration-count: 1;    
+                        font-size: 50px;
+                        line-height: 1.6;
+                        color: rgb(0, 0, 0);
+                        text-align: center;
+                        font-family: "Allura", cursive;
+                    }
+
+                }
+
+                &-paragraph {
+                    width: 366px;
+                    top: 694px;
+                    left: 28px;
+                    & h3 {
+                        font-weight: 100;
+                        line-height: 1.6;
+                        color: rgb(0, 0, 0);
+                        text-align: center;
+                        font-size: 16px;
+                        font-family: "Pacifico", cursive;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    &-section3 {
+
+        &-background {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            overflow: hidden;
+        }
+
+        &-box {
+            position: relative;
+            margin: 0 auto;
+            height: 100%;
+            &-img1{
+                &_page {
+                    box-shadow: rgb(0, 0, 0) 0px 5px 15px -9px;
+                    &-background {
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        background-size: cover;
+                        background-attachment: scroll;
+                        background-origin: content-box;
+                        position: absolute;
+                        margin: 0 auto;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                    }
+                }
+            }
+            &-img2{
+                &_page {
+                    &-background {
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        background-size: cover;
+                        background-attachment: scroll;
+                        background-origin: content-box;
+                        position: absolute;
+                        margin: 0 auto;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                    }
+                }
+            }
+            &-line {
+                &-page {
+                    width: 100%;
+                    padding: 8px 0px;
+                    &_hide {
+                        border-top: 3px solid rgb(0, 0, 0);
+                        border-right: 3px solid rgb(0, 0, 0);
+                        border-bottom: 3px solid rgb(0, 0, 0);
+                        border-left: 0px !important;
+                        border-bottom: 0 !important;
+                        border-right: 0 !important;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+
+            &-paragraph1{
+                width: 330px;
+                &_name {
+                    font-weight: 100;
+                    line-height: 1.6;
+                    color: rgb(0, 0, 0);
+                    font-family: "Pacifico", cursive;
+                }
+            }
+
+            &-img3{
+                &_flow {
+                    &-background {
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        background-size: cover;
+                        background-attachment: scroll;
+                        background-origin: content-box;
+                        position: absolute;
+                        margin: 0 auto;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                    }
+                }
+            }
+
+            &-group1 {
+                height:102px;
+                &-content {
+                    &-paragraph1 {
+                        top: 0px;
+                        left: 0px;
+                        & div {
+                            font-size: 18px;
+                            line-height: 1.6;
+                            color: rgb(0, 0, 0);
+                            text-align: center;
+                            & span {
+                                font-weight: bold;
+                                font-family: 'Barlow', sans-serif;
+                            }
+                        }
+                    }
+
+                    &-paragraph2 {
+                        top: 51px;
+                        left: 0px;
+                        & div {
+                            font-family: 'Dosis', sans-serif;
+                            line-height: 1.6;
+                            color: rgb(0, 0, 0);
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+            &-group2 {
+                height:102px;
+                &-content {
+                    &-paragraph1 {
+                        top: 0px;
+                        left: 0px;
+                        & div {
+                            font-size: 18px;
+                            line-height: 1.6;
+                            color: rgb(0, 0, 0);
+                            text-align: center;
+                            & span {
+                                font-weight: bold;
+                                font-family: 'Barlow', sans-serif;
+                            }
+                        }
+                    }
+
+                    &-paragraph2 {
+                        top: 51px;
+                        left: 0px;
+                        & div {
+                            font-family: 'Dosis', sans-serif;
+                            line-height: 1.6;
+                            color: rgb(0, 0, 0);
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+            &-headline {
+                & h1 {
+                    animation-name: bounceIn;
+                    animation-delay: 1s;
+                    animation-duration: 1s;
+                    animation-iteration-count: 1;
+                    font-weight: bold;
+                    line-height: 1.6;
+                    color: rgb(0, 0, 0);
+                    text-align: center;
+                    font-family: 'Great Vibes', cursive;
+                }
+            }
+            
+            &-paragraph2{
+                & div {
+                    font-size: 23px;
+                    line-height: 1.6;
+                    color: rgb(0, 0, 0);
+                    text-align: center;
+                    font-weight: 600;
+                    font-family: 'Barlow', sans-serif;
+                }
+            }
+
+            &-paragraph3{
+                & div {
+                    font-size: 18px;
+                    font-weight: bold;
+                    line-height: 1.6;
+                    color: rgb(0, 0, 0);
+                    text-align: center;
+                    font-family: 'Barlow', sans-serif;
+                }
+            }
+
+            &-paragraph4{
+                & div {
+                    font-style: italic;
+                    line-height: 1.6;
+                    color: rgb(0, 0, 0);
+                    text-align: center;
+                    font-family: 'Barlow', sans-serif;
+                }
+            }
+
+            &-paragraph5{
+                & div {
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 1.6;
+                    color: rgb(0, 0, 0);
+                    text-align: center;
+                    font-family: 'Barlow', sans-serif;
+                }
+            }
+
+            &-paragraph6{
+                & div {
+                    font-weight: bold;
+                    line-height: 1.6;
+                    color: rgb(0, 0, 0);
+                    text-align: center;
+                    font-family: 'Barlow', sans-serif;
+                }
+            }
+
+            &-paragraph7{
+                & div {
+                    font-size: 18px;
+                    font-style: italic;
+                    line-height: 1.6;
+                    color: rgb(0, 0, 0);
+                    text-align: center;
+                    font-family: 'Barlow', sans-serif;
+                }    
+            }
+
+            &-paragraph8{
+                & div {
+                    font-weight: bold;
+                    line-height: 1.6;
+                    color: rgb(0, 0, 0);
+                    text-align: center;
+                    font-family: 'Barlow', sans-serif;
+                }
+            }
+
+            &-paragraph9{                
+                & div {
+                font-weight: bold;
+                line-height: 1.6;
+                color: rgb(0, 0, 0);
+                text-align: center;
+                font-family: 'Barlow', sans-serif;
+                }
+            }
+
+            &-paragraph10{
+                font-family: "Dancing Script", cursive;
+                font-size: 18.5px;
+                line-height: 1.6;
+                color: rgb(0, 0, 0);
+                text-align: center;
+            }
+
+            &-paragraph11{
+                font-family: 'Barlow', sans-serif;
+                font-size: 17.5px;
+                line-height: 1.6;
+                color: rgb(0, 0, 0);
+                text-align: center;
+            }
+            
+            &-img4{
+                &_bottom {
+                    &-background {
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        background-size: cover;
+                        background-attachment: scroll;
+                        background-origin: content-box;
+                        position: absolute;
+                        margin: 0 auto;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                    }
+                }
+            }
+
+        }
+    }
+
+    &-section4 {
+        top: 30px;
+        &-background {
+            background-origin: content-box;
+            background-position: 50% 50%;
+            background-repeat: repeat;
+            background-attachment: scroll;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            overflow: hidden;
+        }
+
+
+        &-overlay {
+            background-color: rgb(0, 0, 0);
+            opacity: 0.3;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            pointer-events: none;
+        }
+
+        &-item {
+            position: relative;
+            margin: 0 auto;
+            height: 100%;
+        }
+    }
+
+    &-section5 {
+        &-background {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            overflow: hidden;
+        }
+
+        &-item {
+            position: relative;
+            margin: 0 auto;
+            height: 100%;  
+            &-group1 {
+                &_head {
+                    &-box {
+                        top: 0px;
+                        & div {
+                            box-shadow: rgb(0, 0, 0) 0px 0px 32px -15px;
+                            border-radius: 2px;
+                            background-color: rgb(255, 255, 255);
+                        }
+                    }
+
+                    &-12 {
+                        left: 0px;
+                        &-paragraph {
+                            &-1 {
+                                & div {
+                                    font-weight: bold;
+                                    font-size: 30px;
+                                    line-height: 1.6;
+                                    color: rgb(0, 0, 0);
+                                    text-align: center;
+                                    font-family: 'Barlow', sans-serif;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            &-image1 {
+                &-background {
+                    animation-name: fadeInUp;
+                    animation-delay: 0s;
+                    animation-duration: 1s;
+                    animation-iteration-count: 1;
+                    & div {
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        background-size: cover;
+                        background-attachment: scroll;
+                        background-origin: content-box;
+                        position: absolute;
+                        margin: 0 auto;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                        top: 0px;
+                        left: 0px;
+                    }
+                }
+            }
+
+            &-image2 {
+                &-background {
+                    animation-name: fadeInLeft;
+                    animation-delay: 0s;
+                    animation-duration: 1s;
+                    animation-iteration-count: 1;
+                    & div {
+                        left: 0px;
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        background-size: cover;
+                        background-attachment: scroll;
+                        background-origin: content-box;
+                        position: absolute;
+                        margin: 0 auto;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                    }
+                }
+            }
+
+            &-image3 {
+                &-background {
+                    animation-name: fadeInRight;
+                    animation-delay: 0s;
+                    animation-duration: 1s;
+                    animation-iteration-count: 1;
+                    & div {
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        background-size: cover;
+                        background-attachment: scroll;
+                        background-origin: content-box;
+                        position: absolute;
+                        margin: 0 auto;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                    }
+                }
+            }
+
+            &-image4 {
+                &-background {
+                    animation-name: fadeInUp;
+                    animation-delay: 0s;
+                    animation-duration: 1s;
+                    animation-iteration-count: 1;
+                    & div {
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        background-size: cover;
+                        background-attachment: scroll;
+                        background-origin: content-box;
+                        position: absolute;
+                        margin: 0 auto;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                        top: 0px;
+                        left: 0px;
+                    }
+                }
+            }
+
+            &-image5 {
+                &-background {
+                    animation-name: fadeInUp;
+                    animation-delay: 0s;
+                    animation-duration: 1s;
+                    animation-iteration-count: 1;
+                    & div {
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        background-size: cover;
+                        background-attachment: scroll;
+                        background-origin: content-box;
+                        position: absolute;
+                        margin: 0 auto;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                        top: 0px;
+                        left: 0px;
+                    }
+                }
+            }
+
+            &-image6 {
+                &-background {
+                    animation-name: fadeInUp;
+                    animation-delay: 0s;
+                    animation-duration: 1s;
+                    animation-iteration-count: 1;
+                    & div {
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        background-size: cover;
+                        background-attachment: scroll;
+                        background-origin: content-box;
+                        position: absolute;
+                        margin: 0 auto;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                    }
+                }
+            }
+
+            &-image7 {
+                &-background {
+                    animation-name: fadeInUp;
+                    animation-delay: 0s;
+                    animation-duration: 1s;
+                    animation-iteration-count: 1;
+                    & div {
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        background-size: cover;
+                        background-attachment: scroll;
+                        background-origin: content-box;
+                        position: absolute;
+                        margin: 0 auto;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                    }
+                }
+            }
+
+            &-image8 {
+                &-background {
+                    animation-name: fadeInUp;
+                    animation-delay: 0s;
+                    animation-duration: 1s;
+                    animation-iteration-count: 1;
+                    & div {
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        background-size: cover;
+                        background-attachment: scroll;
+                        background-origin: content-box;
+                        position: absolute;
+                        margin: 0 auto;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                        top: 0px;
+                        left: 0px;
+                    }
+                }
+            }
+        }
+    }
+
+    &-section6 {
+        &-background {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            overflow: hidden;
+        }
+
+        &-item {
+            position: relative;
+            margin: 0 auto;
+            height: 100%;
+            &-image1 {
+                &-background {
+                    & div {
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        background-size: cover;
+                        background-attachment: scroll;
+                        background-origin: content-box;
+                        position: absolute;
+                        margin: 0 auto;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                    }
+                }
+            }
+            &-image2 {
+                &-background {
+                    & div {
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        background-size: cover;
+                        background-attachment: scroll;
+                        background-origin: content-box;
+                        position: absolute;
+                        margin: 0 auto;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                    }
+                }
+            }
+            &-image3 {
+                &-background {
+                    & div {
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        background-size: cover;
+                        background-attachment: scroll;
+                        background-origin: content-box;
+                        position: absolute;
+                        margin: 0 auto;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                    }
+                }
+            }
+            &-image4 {
+                &-background {
+                    & div {
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        background-size: cover;
+                        background-attachment: scroll;
+                        background-origin: content-box;
+                        position: absolute;
+                        margin: 0 auto;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                    }
+                }
+            }
+            &-image5 {
+                &-background {
+                    & div {
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        background-size: cover;
+                        background-attachment: scroll;
+                        background-origin: content-box;
+                        position: absolute;
+                        margin: 0 auto;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                    }
+                }
+            }
+            &-image6 {
+                &-background {
+                    & div {
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        background-size: cover;
+                        background-attachment: scroll;
+                        background-origin: content-box;
+                        position: absolute;
+                        margin: 0 auto;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                    }
+                }
+            }
+            &-image7 {
+                &-background {
+                    & div {
+                        background-repeat: no-repeat;
+                        background-position: left top;
+                        background-size: cover;
+                        background-attachment: scroll;
+                        background-origin: content-box;
+                        position: absolute;
+                        margin: 0 auto;
+                        width: 100%;
+                        height: 100%;
+                        pointer-events: none;
+                    }
+                }
+            }
+
+            &-group1 {
+                &-paragraph {
+                    &_head {
+                        width: 268px;
+                        & div {
+                            line-height: 1.6;
+                            color: rgb(0, 0, 0);
+                            text-align: left;
+                        }
+                        & div h1 {
+                            font-weight: 600;
+                            font-family: "Barlow", sans-serif;
+                        }
+                    }
+
+                    &_sub {
+                        left: 0px;
+                        & div {
+                            line-height: 1.2;
+                            color: rgb(0, 0, 0);
+                            text-align: left;
+                        }
+                        & div h3 {
+                            font-style: italic;
+                            font-family: "Barlow", sans-serif;
+                        }
+
+                        & div h2 {
+                            font-weight: bold;
+                            font-family: "Barlow", sans-serif;
+                        }
+                    }
+                }
+            }
+
+            &-group2 {
+                &-paragraph {
+                    &_head {
+                        width: 268px;
+                        & div {
+                            line-height: 1.6;
+                            color: rgb(0, 0, 0);
+                            text-align: left;
+                        }
+                        & div h1 {
+                            font-weight: 600;
+                            font-family: "Barlow", sans-serif;
+                        }
+                    }
+
+                    &_sub {
+                        left: 0px;
+                        & div {
+                            line-height: 1.2;
+                            color: rgb(0, 0, 0);
+                            text-align: left;
+                        }
+                        & div h3 {
+                            font-style: italic;
+                            font-family: "Barlow", sans-serif;
+                        }
+
+                        & div h2 {
+                            font-weight: bold;
+                            font-family: "Barlow", sans-serif;
+                        }
+                    }
+                }
+            }
+            &-group3 {
+                &-paragraph {
+                    &_head {
+                        width: 268px;
+                        & div {
+                            line-height: 1.6;
+                            color: rgb(0, 0, 0);
+                            text-align: left;
+                        }
+                        & div h1 {
+                            font-weight: 600;
+                            font-family: "Barlow", sans-serif;
+                        }
+                    }
+
+                    &_sub {
+                        left: 0px;
+                        & div {
+                            line-height: 1.2;
+                            color: rgb(0, 0, 0);
+                            text-align: left;
+                        }
+                        & div h3 {
+                            font-style: italic;
+                            font-family: "Barlow", sans-serif;
+                        }
+
+                        & div h2 {
+                            font-weight: bold;
+                            font-family: "Barlow", sans-serif;
+                        }
+                    }
+                }
+            }
+
+            &-group4 {
+                &_pr {
+                    &-paragraph1 {
+                        & div {
+                            font-size: 16px;
+                            line-height: 1.6;
+                            color: rgb(0, 0, 0);
+                            text-align: center;
+                            font-family: "Barlow", sans-serif;
+                        }
+                    }
+                    &-paragraph2 {
+                        & div {
+                            line-height: 1.6;
+                            color: rgb(0, 0, 0);
+                            text-align: center;
+                            font-weight: bold;
+                            font-family: "Barlow", sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &-section7 {
+        &-background {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            overflow: hidden;
+        }
+        &-item {
+            position: relative;
+            margin: 0 auto;
+            height: 100%;
+            &-group {
+                &-paragraph {
+                    &_head {
+                        & div {
+                            font-family: "Barlow", sans-serif;
+                            line-height: 1.8;
+                            color: rgb(0, 0, 0);
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+            &-image {
+                padding-bottom: 50px;
+                &-background div {
+                    background-repeat: no-repeat;
+                    background-position: left top;
+                    background-size: cover;
+                    background-attachment: scroll;
+                    background-origin: content-box;
+                    position: absolute;
+                    margin: 0 auto;
+                    width: 100%;
+                    height: 100%;
+                    pointer-events: none;
+                }
+            }
+        }
+    }
+
+}
