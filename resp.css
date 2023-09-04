@@ -596,7 +596,8 @@
     }
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 767.8px) {
     .container-section1 {
         height: 289px;
     }
@@ -1220,3 +1221,4 @@
         height: 84.5px;
     }
 }
+

@@ -97,6 +97,15 @@ body {
     }
 }
 
+.ladi-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+}
+
 .ladi-transition {
     transition: all 150ms linear 0s;
 
@@ -752,7 +761,6 @@ body {
     }
 
     &-section4 {
-        top: 30px;
         &-background {
             background-origin: content-box;
             background-position: 50% 50%;
@@ -771,12 +779,6 @@ body {
         &-overlay {
             background-color: rgb(0, 0, 0);
             opacity: 0.3;
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 100%;
-            width: 100%;
-            pointer-events: none;
         }
 
         &-item {

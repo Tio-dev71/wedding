@@ -88,6 +88,15 @@ body {
     transform: scale(1);
   }
 }
+.ladi-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+
 .ladi-transition {
   transition: all 150ms linear 0s;
 }
@@ -631,9 +640,6 @@ body {
   height: 100%;
   pointer-events: none;
 }
-.container-section4 {
-  top: 30px;
-}
 .container-section4-background {
   background-origin: content-box;
   background-position: 50% 50%;
@@ -650,12 +656,6 @@ body {
 .container-section4-overlay {
   background-color: rgb(0, 0, 0);
   opacity: 0.3;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  pointer-events: none;
 }
 .container-section4-item {
   position: relative;
