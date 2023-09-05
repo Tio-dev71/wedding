@@ -612,7 +612,7 @@
     }
 
     .container-section1-head_main h1 {
-        font-size: 42px;
+        font-size: 40px;
     }
 
     .container-section1-head_linegr {
@@ -622,15 +622,15 @@
         width: 420px;
     }
 
-    #text1 {
-        font-size: 19px;
+    #text1 h3 {
+        font-size: 16px !important;
     }
 
-    #text2 {
-        font-size: 23px;
+    #text2 h3 {
+        font-size: 20px !important;
     }
 
-    #text3 {
+    #text3 h3{
         font-size: 18px !important;
     }
 
@@ -1016,7 +1016,7 @@
     }
 
     .container-section6-item-image2-background div {
-        background-image: url(/img/background/eventime.png);
+        background-image: url(./img/background/eventime.png);
         width: 70px;
         height: 160px;
     }
@@ -1029,7 +1029,7 @@
     }
 
     .container-section6-item-image3-background div {
-        background-image: url(/img/background/eventime.png);
+        background-image: url(./img/background/eventime.png);
         width: 70px;
         height: 160px;
     }
@@ -1042,7 +1042,7 @@
     }
 
     .container-section6-item-image4-background div {
-        background-image: url(/img/background/eventime2.png);
+        background-image: url(./img/background/eventime2.png);
         width: 70px;
         height: 180px;
     }
