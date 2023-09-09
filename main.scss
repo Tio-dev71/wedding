@@ -161,13 +161,34 @@ body {
     background-position: center center;
 }
 
+.js-scroll {
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+.js-scroll.scrolled {
+    opacity: 1;
+}
+
+.scrolled.fade-in-up {
+    animation: fadeInUp 1s ease-in-out both;
+}
+
+.scrolled.slide-left {
+    animation: fadeInLeft 1s ease-in-out both;
+}
+
+.scrolled.slide-right {
+    animation: fadeInRight 1s ease-in-out both;
+}
+
 .container {
     &-background {
     }
     &-section1 {
             height: 450px;
             &-background{
-                background-image: url(./img/background/muslims-hero-bg-20230616081931-wmmk3.jpg);
+                background-image: url(./contents/background/background.jpg);
                 background-size: cover;
                 background-position: 50% 0%;
                 background-repeat: repeat;
@@ -247,7 +268,7 @@ body {
                     &_img {
                         &-item{
                             &-background {
-                                background-image: url(./img/img/DLEG4118.JPEG);
+                                background-image: url(./contents/img/DLEG4118.JPEG);
                                 background-repeat: no-repeat;
                                 background-position: left top;
                                 background-size: cover;
@@ -269,7 +290,7 @@ body {
             &_img {
                 &-box {
                     &-background {
-                        background-image: url(./img/background/shape-4-20230616083124-sfw8e.png);
+                        background-image: url(./contents/background/shape.png);
                         background-repeat: no-repeat;
                         background-position: left top;
                         background-size: cover;
@@ -324,7 +345,7 @@ body {
                     &-item{
 
                         &-background {
-                            background-image: url(./img/img/Grizz\ _\ Grizzly\ Bear\ _\ We\ Bare\ Bears.jpg);
+                            background-image: url(./contents/img/Grizz\ _\ Grizzly\ Bear\ _\ We\ Bare\ Bears.jpg);
                             width: 345px;
                             height: 542px;
                             background-repeat: no-repeat;
@@ -416,7 +437,7 @@ body {
                     &-item{
 
                         &-background {
-                            background-image: url(./img/img/Polar\ Bear\ _\ Ice\ Bear\ _\ We\ Bare\ Bears.jpg);
+                            background-image: url(./contents/img/Polar\ Bear\ _\ Ice\ Bear\ _\ We\ Bare\ Bears.jpg);
                             width: 345px;
                             height: 542px;
                             background-repeat: no-repeat;
