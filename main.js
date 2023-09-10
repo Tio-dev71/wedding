@@ -1,7 +1,7 @@
     var yourName = prompt("Hãy cho tôi biết tên của bạn:");
 
 
-    var checkName = alert(`Xin gửi riêng ${yourName} một chiếc thiệp cưới siu iu vì do không thể gặp mặt trực tiếp. Rất vui và cảm ơn bạn khi nhận được chiếc thiệp này và đến tham dự với chúng tôi`);
+    var checkName = alert(`Xin gửi riêng ${yourName} một chiếc thiệp cưới siu iu ❤️ vì do không thể gặp mặt trực tiếp. Rất vui và cảm ơn bạn khi nhận được chiếc thiệp này và đến tham dự với chúng tôi`);
 
 
     // scroll
