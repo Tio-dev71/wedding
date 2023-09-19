@@ -268,7 +268,7 @@ body {
                     &_img {
                         &-item{
                             &-background {
-                                background-image: url(./contents/img/DLEG4118.JPEG);
+                                background-image: url(./contents/img/sonxthao.jpg);
                                 background-repeat: no-repeat;
                                 background-position: left top;
                                 background-size: cover;
@@ -345,7 +345,7 @@ body {
                     &-item{
 
                         &-background {
-                            background-image: url(./contents/img/Grizz\ _\ Grizzly\ Bear\ _\ We\ Bare\ Bears.jpg);
+                            background-image: url(./contents/img/phuongthao.jpg);
                             width: 345px;
                             height: 542px;
                             background-repeat: no-repeat;
@@ -437,7 +437,7 @@ body {
                     &-item{
 
                         &-background {
-                            background-image: url(./contents/img/Polar\ Bear\ _\ Ice\ Bear\ _\ We\ Bare\ Bears.jpg);
+                            background-image: url(./contents/img/hoangson.jpg);
                             width: 345px;
                             height: 542px;
                             background-repeat: no-repeat;
@@ -1334,4 +1334,22 @@ body {
         }
     }
 
+}
+
+.fa-heart {
+    color: rgb(60, 0, 60);
+    font-size: 25px;
+    position: absolute;
+    animation:  heartMove linear 1;
+    top: -10vh;
+    z-index: 100;
+}
+
+@keyframes heartMove {
+    0%{
+        transform: translateY(-10vh) ;
+    }
+    100%{
+        transform: translateY(110vh) ;
+    }
 }

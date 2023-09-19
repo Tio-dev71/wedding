@@ -236,12 +236,13 @@
     }
 
     .container-section4-background {
-        background-image: url(./contents/background/Screenshot\ 2023-02-25\ 231218.png);
+        background-image: url(./contents/img/background2.jpg);
         background-size: 100%;
+        background-position: 50% 5%;
     }
 
     .container-section4-item {
-        width: 1200px;
+        width: 100%;
     }
     
     .container-section5 {
@@ -285,7 +286,7 @@
     }
 
     .container-section5-item-image1-background div {
-        background-image: url(./contents/background/test.jpeg);
+        background-image: url(./contents/img/pic1.jpg);
         width: 725px;
         height: 488px;
     }
@@ -310,7 +311,7 @@
 
     .container-section5-item-image2-background div {
         top: 0px;
-        background-image: url(./contents/img/DLEG4118.JPEG);
+        background-image: url(./contents/img/pic3.jpg);
     }
 
 
@@ -322,7 +323,7 @@
     .container-section5-item-image3-background div {
         top: 0px;
         left: 0px;
-        background-image: url(./contents/img/DLEG4118.JPEG);
+        background-image: url(./contents/img/pic4.jpg);
     }
 
     .container-section5-item-image4 {
@@ -335,11 +336,11 @@
     .container-section5-item-image4-background div {
         width: 727px;
         height: 488px;
-        background-image: url(./contents/background/test.jpeg);
+        background-image: url(./contents/img/pic8.jpg);
     }
 
     .container-section5-item-image5-background div {
-        background-image: url(./contents/img/DLEG4118.JPEG);
+        background-image: url(./contents/img/pic2.jpg);
     }
 
     .container-section5-item-image5 {
@@ -374,7 +375,7 @@
     }
 
     .container-section5-item-image8-background div {
-        background-image: url(./contents/img/DLEG4118.JPEG);
+        background-image: url(./contents/img/pic7.jpg);
     }
 
     .container-section5-item-image8 {
@@ -862,10 +863,10 @@
     }
 
     .container-section4-background {
-        background-image: url(./contents/background/Screenshot\ 2023-02-25\ 231218.png);
+        background-image: url(./contents/img/background2.jpg);
         background-size: auto 100%;
     }
-
+    
     .container-section4-item {
         width: 420px;
     }
@@ -916,7 +917,7 @@
     }
 
     .container-section5-item-image1-background div {
-        background-image: url(./contents/background/test.jpeg);
+        background-image: url(./contents/img/pic1.jpg);
         width: 373px;
         height: 248px;
     }
@@ -929,7 +930,7 @@
     }
 
     .container-section5-item-image2-background div {
-        background-image: url(./contents/img/DLEG4118.JPEG);
+        background-image: url(./contents/img/pic3.jpg);
     }
 
     .container-section5-item-image6 {
@@ -951,7 +952,7 @@
     }
 
     .container-section5-item-image3-background div {
-        background-image: url(./contents/img/DLEG4118.JPEG);
+        background-image: url(./contents/img/pic4.jpg);
     }
 
     .container-section5-item-image5 {
@@ -962,7 +963,7 @@
     }
 
     .container-section5-item-image5-background div {
-        background-image: url(./contents/img/DLEG4118.JPEG);
+        background-image: url(./contents/img/pic2.jpg);
     }
 
     .container-section5-item-image4 {
@@ -973,7 +974,7 @@
     }
 
     .container-section5-item-image4-background div {
-        background-image: url(./contents/background/test.jpeg);
+        background-image: url(./contents/img/pic8.jpg);
     }
 
     .container-section5-item-image8 {
@@ -984,7 +985,7 @@
     }
 
     .container-section5-item-image8-background div {
-        background-image: url(./contents/img/DLEG4118.JPEG);
+        background-image: url(./contents/img/pic7.jpg);
     }
 
     .container-section6 {
@@ -1219,5 +1220,5 @@
         background-image: url(./contents/background/ct_footer.png);
         width: 420px;
         height: 84.5px;
-    }
+    } 
 }
