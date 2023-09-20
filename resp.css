@@ -356,9 +356,7 @@
         height: 232px;
     }
     .container-section5-item-image6-background div {
-        width: 680px;
-        height: 460px;
-        background-image: url(./contents/background/test.jpeg);
+        background-image: url(./contents/img/pic5.jpg);
     }
 
     .container-section5-item-image7 {
@@ -369,9 +367,7 @@
     }
 
     .container-section5-item-image7-background div {
-        width: 680px;
-        height: 460px;
-        background-image: url(./contents/background/test.jpeg);
+        background-image: url(./contents/img/pic6.jpg);
     }
 
     .container-section5-item-image8-background div {
@@ -865,6 +861,8 @@
     .container-section4-background {
         background-image: url(./contents/img/background2.jpg);
         background-size: auto 100%;
+        width: 100%;
+        min-width: 420px;
     }
     
     .container-section4-item {
@@ -887,7 +885,7 @@
 
     .container-section5-item-group1_head-box {
         width: 400px;
-        height: 2155.5px;
+        height: 2416.5px;
         left: 10px;    
     }
 
@@ -941,7 +939,7 @@
     }
 
     .container-section5-item-image6-background div {
-        background-image: url(./contents/background/test.jpeg);
+        background-image: url(./contents/img/pic5.jpg);
     }
 
     .container-section5-item-image3 {
@@ -984,12 +982,24 @@
         height: 488px;
     }
 
+    .container-section5-item-image7-background {
+        top: 2060px;
+        left: 23.5px;
+        width: 373px;
+        height: 248px;
+    }
+
+    .container-section5-item-image7-background div {
+        background-image: url(./contents/img/pic6.jpg);
+    }
+
     .container-section5-item-image8-background div {
         background-image: url(./contents/img/pic7.jpg);
     }
 
     .container-section6 {
         height: 845.71px;
+        top: 220px;
     }
 
     .container-section6-item {
@@ -1183,6 +1193,7 @@
 
     .container-section7 {
         height: 435px;
+        top: 182px;
     }
 
     .container-section7-item {
@@ -1221,4 +1232,9 @@
         width: 420px;
         height: 84.5px;
     } 
+
+    .container-section4-overlay {
+        width: 100%;
+        min-width: 420px;
+    }
 }
