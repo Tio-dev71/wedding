@@ -44,3 +44,7 @@
     window.addEventListener("scroll", () => { 
     handleScrollAnimation();
     });
+
+    document.addEventListener("contextmenu", (event) => {
+        event.preventDefault();
+    });
